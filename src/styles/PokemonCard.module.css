@@ -1,0 +1,30 @@
+.cardContainer {
+	margin: 0 auto;
+}
+
+.pokemonCard {
+	border-radius: 5px;
+	margin: 0.75rem 0;
+	width: 18rem;
+}
+
+.cardBody {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.transferBtn {
+	cursor: pointer;
+	border: none;
+	font-weight: 600;
+	padding: 0.5em;
+	transition: all 0.2s ease-in;
+}
+
+.transferBtn:focus,
+.transferBtn:hover {
+	background-color: #833921;
+	transform: scale(1.1);
+	outline: none;
+}

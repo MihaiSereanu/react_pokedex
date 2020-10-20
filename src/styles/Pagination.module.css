@@ -1,0 +1,26 @@
+.pagenumbers {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.pageNumberBtn {
+	text-align: center;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: #fff;
+	color: black;
+	margin: 0.5em 0px 0.5em 0.5em;
+	font-size: 1.2rem;
+	justify-content: center;
+	transition: all 0.2s ease-in;
+}
+
+.pageNumberBtn:hover,
+.pageNumberBtn:focus {
+	background-color: #494949;
+	color: white;
+	transform: scale(1.2);
+}
