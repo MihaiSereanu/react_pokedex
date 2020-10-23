@@ -14,7 +14,7 @@ const App = () => {
 			<Router>
 				<Switch>
 					<Route path='/react_pokedex' exact component={PokemonList} />
-					<Route path='/react_pokedex/:name' component={PokemonDetails} />
+					<Route path='/:name' component={PokemonDetails} />
 				</Switch>
 			</Router>
 		</Container>
