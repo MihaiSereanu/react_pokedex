@@ -11,7 +11,7 @@ import PokemonDetails from "./components/details/[PokemonDetails]";
 const App = () => {
 	return (
 		<Container fluid className='pokemon-container'>
-			<Router basename='/react_pokedex'>
+			<Router>
 				<Switch>
 					<Route path='/' exact component={PokemonList} />
 					<Route path='/:name' component={PokemonDetails} />

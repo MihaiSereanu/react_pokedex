@@ -9,7 +9,6 @@ const PokemonDetails = ({ match }) => {
 
 	const link = `https:pokeapi.co/api/v2/pokemon-species/${match.params.name}`;
 	const statsLink = `https:pokeapi.co/api/v2/pokemon/${match.params.name}`;
-
 	useEffect(() => {
 		const fetchPokemon = async () => {
 			let cancel;
