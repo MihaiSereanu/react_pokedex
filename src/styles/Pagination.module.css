@@ -10,9 +10,9 @@
 	border: none;
 	outline: none;
 	cursor: pointer;
-	background-color: #fff;
+	background-color: #f0f0f0;
 	color: black;
-	margin: 0.5em 0px 0.5em 0.5em;
+	margin: 1em 0px 0.5em 0.5em;
 	font-size: 1.2rem;
 	justify-content: center;
 	transition: all 0.2s ease-in;
@@ -20,7 +20,7 @@
 
 .pageNumberBtn:hover,
 .pageNumberBtn:focus {
-	background-color: #494949;
+	background-color: #c04848;
 	color: white;
 	transform: scale(1.2);
 }
