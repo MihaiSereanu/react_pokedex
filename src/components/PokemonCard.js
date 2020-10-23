@@ -13,7 +13,7 @@ const PokemonCard = ({ p }) => {
 						{p[0].charAt(0).toUpperCase() + p[0].substr(1).toLowerCase()}
 					</Card.Title>
 					<Card.Text>{`${p[1].split(".")[0]}.`}</Card.Text>
-					<Link to={`/details/${p[0]}`}>
+					<Link to={`/${p[0]}`}>
 						<Button
 							variant='dark'
 							className={styles.transferBtn}

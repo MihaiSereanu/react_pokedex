@@ -13,8 +13,8 @@ const App = () => {
 		<Container fluid className='pokemon-container'>
 			<Router>
 				<Switch>
-					<Route path='/react_pokedex' exact component={PokemonList} />
-					<Route path='/details/:name' component={PokemonDetails} />
+					<Route path='/' exact component={PokemonList} />
+					<Route path='/:name' component={PokemonDetails} />
 				</Switch>
 			</Router>
 		</Container>
